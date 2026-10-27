@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#05070B" />
+    <title>DROPLET | A Signal for You</title>
+    <script type="module" crossorigin src="/assets/index-CxEL-bxP.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DzXfX21e.css">
+  </head>
+  <body>
+    <div class="scene" aria-hidden="true"></div>
+    <div class="droplet-display" aria-label="Droplet image">
+      <span class="charge-halo" aria-hidden="true"></span>
+      <span class="unlock-wave" aria-hidden="true"></span>
+      <span class="energy-wave" aria-hidden="true"></span>
+      <img
+        class="droplet-image"
+        src="/images/droplet.png"
+        alt="Silver droplet"
+        decoding="async"
+      />
+    </div>
+    <canvas class="dissolve-particles" aria-hidden="true" hidden></canvas>
+    <p class="interaction-hint" aria-hidden="true">TOUCH THE DROPLET</p>
+    <div class="system-info" aria-hidden="true" aria-label="信息解析状态">
+      <p class="system-line system-line-muted">检测到异常响应</p>
+      <p class="system-line system-line-muted">确认非敌对信息载荷</p>
+      <p class="system-line system-line-active">正在解析...</p>
+    </div>
+    <div class="recipient-info" aria-hidden="true" aria-label="接收者确认状态">
+      <p class="recipient-line recipient-line-primary">信息解析完成</p>
+      <p class="recipient-line recipient-line-muted">接收者身份已确认</p>
+      <p class="recipient-line recipient-line-target">目标：<span class="recipient-name" data-recipient-name></span></p>
+      <p class="recipient-unlocked">私人信息载荷已解锁</p>
+    </div>
+    <main class="intro" aria-labelledby="title">
+      <h1 id="title">DROPLET</h1>
+      <p>A Signal for You</p>
+    </main>
+    <section class="birthday-reveal final-content" aria-hidden="true" aria-labelledby="birthday-title">
+      <div class="birthday-core final-primary">
+        <h2 id="birthday-title"><span data-birthday-name></span>，生日快乐</h2>
+        <p class="birthday-subtitle">愿你永远保持对世界的好奇，也永远闪闪发光。</p>
+      </div>
+      <div class="birthday-memory-group final-memory">
+        <p class="birthday-memory">宇宙很大，能认识你，是一件很幸运的事。</p>
+        <p class="birthday-signature">—— 小灰灰</p>
+      </div>
+    </section>
+  </body>
+</html>
